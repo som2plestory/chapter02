@@ -3,7 +3,7 @@ package com.javaex.ex03;
 public class Goods {
 
 	//필드
-	private String name = "니콘";
+	private String name;
 	private int price;
 	
 	//생성자
