@@ -9,7 +9,7 @@ public class MathApp {
 		System.out.println(m1.plus(2,5));	// 2 + 5
 		System.out.println(m1.plus(3.2, 5));	// 3.2+5
 		System.out.println(m1.plus(5, 3.2));	// 5+3.2
-		System.out.println(m1.plus(3.1, 5.2));	// 3.1+5.1
+		System.out.println(m1.plus(3.1, 5.2));	// 3.1+5.1  3=[
 	}
 
 }
