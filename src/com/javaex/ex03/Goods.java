@@ -9,17 +9,16 @@ public class Goods {
 	//생성자
 	
 	//메소드 - gs
-	public void setName(String n) {
-		name = n;
+	public void setName(String name) {
+		this.name = name;
 	}
-	
-	public void setPrice(int p){
-		price = p;
-	}
-	
 	
 	public String getName() {
 		return name;
+	}
+	
+	public void setPrice(int price){
+		this.price = price;
 	}
 	
 	public int getPrice() {
@@ -31,5 +30,11 @@ public class Goods {
 		System.out.println("상품이름: "+name);
 		System.out.println("가격: "+price);
 		System.out.println("");
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Goods [name]" + name + ", price=" + price +"]";
 	}
 }
