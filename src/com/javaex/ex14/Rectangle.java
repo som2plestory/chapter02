@@ -1,6 +1,6 @@
-package com.javaex.ex14_1;
+package com.javaex.ex14;
 
-public class Ractangle {
+public class Rectangle {
 	
 	//필드 
 	private String fillColor;
@@ -10,11 +10,11 @@ public class Ractangle {
 	
 	
 	//생성자
-	public Ractangle() {
+	public Rectangle() {
 	
 	}
 
-	public Ractangle(String fillColor, String lineColor, int width, int height) {
+	public Rectangle(String fillColor, String lineColor, int width, int height) {
 		this.fillColor = fillColor;
 		this.lineColor = lineColor;
 		this.width = width;
@@ -59,12 +59,13 @@ public class Ractangle {
 	//메소드 - 일반
 	@Override
 	public String toString() {
-		return "Ractangle [fillColor=" + fillColor + ", lineColor=" + lineColor + ", width=" + width + ", height="
-				+ height + "]";
+		return "Ractangle [fillColor=" + fillColor + ", lineColor=" + lineColor 
+				+ ", width=" + width + ", height="+ height + "]";
 	}
 	
 	public void draw() {
-		System.out.println("면색:"+fillColor+", 선색:"+lineColor+", 가로:"+width+", 세로:"+height+" 사각형을 그렸습니다.");
+		System.out.println("[면색:"+fillColor+", 선색:"+lineColor+", "
+							+ "가로:"+width+", 세로:"+height+" 사각형을 그렸습니다.]");
 	}
 	
 

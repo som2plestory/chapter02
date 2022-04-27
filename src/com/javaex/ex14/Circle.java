@@ -1,4 +1,4 @@
-package com.javaex.ex14_1;
+package com.javaex.ex14;
 
 public class Circle {
 	
@@ -48,13 +48,12 @@ public class Circle {
 	//메소드 - 일반
 	@Override
 	public String toString() {
-		return "Circle [fillColor=" + fillColor + ", lineColor=" 
-				+ lineColor + ", radius=" + radius + "]";
+		return "Circle [fillColor=" + fillColor + ", lineColor=" + lineColor + ", radius=" + radius + "]";
 	}
 	
 	public void draw() {
-		System.out.println("[면색:"+fillColor+", 선색:"+lineColor
-							+", 반지름" +radius+" 원을 그렸습니다.]");
+		System.out.println("[면색:"+fillColor+", 선색:"+lineColor+", 반지름" 
+							+radius+" 원을 그렸습니다.]");
 	}
 	
 	

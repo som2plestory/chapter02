@@ -5,8 +5,8 @@ public class ShapesApp {
 	public static void main(String[] args) {
 		
 		//[] angles4 = new String[2]; //4각형
-		Ractangle r01 = new Ractangle("빨강", "검정", 4,4);
-		Ractangle r02 = new Ractangle("주황", "검정", 5,5);
+		Rectangle r01 = new Rectangle("빨강", "검정", 4,4);
+		Rectangle r02 = new Rectangle("주황", "검정", 5,5);
 		r01.draw();
 		r02.draw();
 		
