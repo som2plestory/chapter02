@@ -1,6 +1,6 @@
-package com.javaex.ex16;
+package com.javaex.ex17;
 
-public class Triangle extends Shape {
+public class Triangle extends Shape{
 	
 	//필드
 	private int width;
@@ -10,7 +10,6 @@ public class Triangle extends Shape {
 	//생성자
 	public Triangle() {
 		super();
-		//System.out.println("Rectangle()");
 	}
 	
 	public Triangle(String fillColor, String lineColor, int width, int height) {

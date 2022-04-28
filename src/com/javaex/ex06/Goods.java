@@ -42,10 +42,15 @@ public class Goods {
 		return price;
 	}
 	
-	//메소드 - 일반
+	//메소드 - 일반 html(2일)
 	public void showInfo() {
 		System.out.println("상품이름: "+name);
 		System.out.println("가격: "+price);
 		System.out.println("");
+	}
+	
+	@Override
+	public String toString() {
+		return "Goods [name=" + name + ", price="+price +"]";
 	}
 }
