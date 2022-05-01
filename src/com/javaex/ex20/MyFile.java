@@ -26,6 +26,8 @@ public class MyFile {
 	//파일이 없는 경우 -- 만드는 쪽에서 예외처리 하는 경우
 	public String read2(String path) {
 		String result ="";
+		
+		/*
 		try {
 			//path에 잇는 파일을 읽어서 문자열 만들어준다
 			//파일이 없을때
@@ -40,7 +42,19 @@ public class MyFile {
 		return result;
 
 	}
+	*/
 	
+	try {
+		//path에 있는 파일을 읽어서 문자열 만들어준다
+		//파일이 없을때
+		throw  new  IOException();  //파일이 없는 상황을 강제로 발생   
+		
+	} catch (Exception e) {
+		System.out.println(path + " no file ");
+	} 
+	
+	return result;
+	}
 	
 	//파일이 없는 경우 - 사용하는 쪽에 예외를 알리는 경우
 	public String read3(String path) throws IOException{
